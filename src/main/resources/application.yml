@@ -1,0 +1,9 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /freemarker
+spring:
+  freemarker:
+    suffix: .ftl
+    cache: false
+    charset: UTF-8
